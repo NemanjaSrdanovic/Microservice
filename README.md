@@ -21,10 +21,10 @@ Development of a new microservice in the OLIVE framework is separated in two sub
 <details>
 <summary>Design thinking and modelling</summary>
 <p>
-Development and presentation of an exposé which represents our microservice. In addition, potential applications of microservices
+Development and presentation of an exposé which represents the microservice. In addition, potential applications of microservice
 are listed and detailed, and possible combinations with microservices from other groups are considered. Furthermore, the implementation 
 of the service is planned and individual components of the application are modeled. In addition, APIs that are required for the implementation
- of the microservices are found and described.
+of the microservices are discovered and described.
 </p>
 </details>
 
@@ -32,7 +32,22 @@ of the service is planned and individual components of the application are model
 
 ### Sub-task 2 - Implementation and deployment
 
+	
+<details>
+<summary>Development and testing</summary>
+<p>
+The microservice is developed with Java and the Spring Boot framework. For this purpose, several REST service endpoints are defined 
+via which requests / data are transferred to the microservice and results are returned.
 
+For this purpose, data that is transferred to the microservice is converted into JSON and corresponding requests are sent to several 
+APIs that provide us with raw data, which are processed and sent back to the requestor.
+
+
+In addition, the microservice is structured in such a way that each request has its own identifier, so that subsequent requests to the first 
+request can be processed locally from the existing data and no new requests have to be sent to the APIs.
+
+</p>
+</details>
 
 ## Project technology
 
