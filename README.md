@@ -46,6 +46,8 @@ APIs that provide us with raw data, which are processed and sent back to the req
 In addition, the microservice is structured in such a way that each request has its own identifier, so that subsequent requests to the first 
 request can be processed locally from the existing data and no new requests have to be sent to the APIs.
 
+Every change to the application is checked for correctness with the help of JUnit tests, which are running automatically.
+
 </p>
 </details>
 
