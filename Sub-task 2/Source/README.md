@@ -1,8 +1,8 @@
 
 
-port: 7009
-private_url: http://eis.dke.univie.ac.at:7009/places/
-public_url: https://eis.dke.univie.ac.at/places/
+port: 7009 <br/>
+private_url: http://eis.dke.univie.ac.at:7009/places/ <br/>
+public_url: https://eis.dke.univie.ac.at/places/ <br/>
 
 # Introduction
   
