@@ -17,6 +17,16 @@ Development of a new microservice in the OLIVE framework is separated in two sub
 
 ### Sub-task 1 - Conception 
 
+	
+<details>
+<summary>Design thinking and modelling</summary>
+<p>
+Development and presentation of an exposé which represents our microservice. In addition, potential applications of microservices
+are listed and detailed, and possible combinations with microservices from other groups are considered. Furthermore, the implementation 
+of the service is planned and individual components of the application are modeled. In addition, APIs that are required for the implementation
+ of the microservices are found and described.
+</p>
+</details>
 
 
 
